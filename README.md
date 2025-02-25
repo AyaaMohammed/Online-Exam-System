@@ -7,7 +7,7 @@ This is a simple web-based examination system where students can take an exam wi
 - Exam questions are stored in a JavaScript array of objects.
 - Each question includes a title, an image, multiple answers, and a correct answer.
 - The interface is designed using HTML, CSS, and JavaScript.
-- The home page collects the student's name using a popup and activates the start button.
+- The home page collects the student's name using a sign-in login form and activates the start button.
 - A timer bar (1 minute) manages the exam duration.
 - Only one question is displayed at a time, with a **Next** button (no **Previous** button).
 - Google Font is applied to the questions and answers for styling.
@@ -42,7 +42,7 @@ This is a simple web-based examination system where students can take an exam wi
 ```
 
 ## How It Works
-1. The student enters their name in a popup.
+1. The student enters their name in a sign-in login form.
 2. A start button is activated to begin the exam.
 3. The exam displays one question at a time with an image and multiple choices.
 4. The student selects an answer (the selected option is highlighted in gray).
@@ -55,4 +55,5 @@ Feel free to contribute by submitting a pull request or reporting issues.
 
 ## License
 This project is licensed under the MIT License.
+
 
